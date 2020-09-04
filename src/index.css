@@ -1,0 +1,28 @@
+.dropzone{
+  align-items: center;
+  display:flex;
+  background:silver;
+  padding:4px;
+  min-width: 500px;
+  height: 70px;
+  margin:5px;
+  border: 1pt solid blue;
+  /* animation: mychange 1s infinite; */
+
+}
+
+/* @keyframes mychange{
+  50% {background: red bottom right/50px 50px;}
+} */
+
+.dragbox{
+  user-select: none;
+  background:grey;
+  color:white;
+  padding:8px;
+  margin:0 0 0 5px;
+  height: 50px;
+  width:50px;
+  border-radius: 50%;
+  border: 1pt solid red;
+}
